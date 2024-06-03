@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    font-family: 'Space Grotesk', serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.nav_bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+}
+
+.nav_bar a{
+    padding-left:1rem;
+    color: #D5D7E5;
+    text-decoration: none;
+    font-size:1.5rem ;
+}
+
+header{
+    background: #2D29D7;
+    width: 100%;
+    height: 100%;
+}
+
+.header_container{
+    margin-top: 3rem;
+    margin-left: 7rem;
+}
+
+.slogan{
+    font-family: 'Space Grotesk', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 53px;
+    line-height: 65px;
+    color: #EFF0F6;
+}
+
+.paragraph{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    margin-top: 2rem;
+    color: #EFF0F6;
+}
+
+.header_container button{
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    margin-top: 2rem;
+
+    border-radius: 8px;
+    border: 2px solid #2D29D7;
+    width: 125px;
+    height: 42px;
+
+    text-align: right;
+    color: #2D29D7;
+    padding-right: 0.5rem;
+}
+
+.clients{
+    background: #F2F4F8;
+}
+
+.clients p{
+    font-size: 24px;
+    line-height: 16px;
+    color: #000000;
+
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.companies{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+}
+
+.clients img{
+    padding:0 1rem 0 1rem ;
+    width: 5%;
+    height: 5%;
+}
+
+.statistic_text{
+    display: flex;
+    flex-direction: row;
+    margin-left: 7rem;
+    align-items: baseline;
+}
+
+.statistic_text p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #4F5664;
+    padding-right: 2rem;
+}
+
+.text p{
+    font-size: 54px;
+    line-height: 65px;
+    color: #0A0D14;
+    padding-left: 2rem;
+}
+
+footer{
+    background: #000000;
+
+}
+
+footer p {
+    font-size: 48px;
+    color: #ffffff;
+    margin-left: 7rem;
+}
