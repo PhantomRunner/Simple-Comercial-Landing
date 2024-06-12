@@ -1,41 +1,43 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-.body{
+.body {
     font-family: 'Space Grotesk', serif;
     font-weight: 400;
     font-style: normal;
 
 }
 
-.nav_bar{
+/* Header*/
+
+.nav_bar {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 4rem;
 }
 
-.nav_bar a{
-    padding-left:1rem;
+.nav_bar a {
+    padding-left: 1rem;
     color: #D5D7E5;
     text-decoration: none;
-    font-size:1.5rem ;
+    font-size: 1.5rem;
 }
 
-header{
+header {
     background: #2D29D7;
     width: 100%;
     height: 100%;
 }
 
-.header_container{
+.header_container {
     margin-top: 3rem;
     margin-left: 7rem;
 }
 
-.slogan{
+.slogan {
     font-family: 'Space Grotesk', serif;
     font-style: normal;
     font-weight: 400;
@@ -44,7 +46,7 @@ header{
     color: #EFF0F6;
 }
 
-.paragraph{
+.paragraph {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -54,7 +56,7 @@ header{
     color: #EFF0F6;
 }
 
-.header_container button{
+.header_container button {
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 400;
@@ -73,11 +75,13 @@ header{
     padding-right: 0.5rem;
 }
 
-.clients{
+/* Trusted by section */
+
+.clients {
     background: #F2F4F8;
 }
 
-.clients p{
+.clients p {
     font-size: 24px;
     line-height: 16px;
     color: #000000;
@@ -86,7 +90,7 @@ header{
     padding-top: 2rem;
 }
 
-.companies{
+.companies {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -95,13 +99,15 @@ header{
     padding-top: 2rem;
 }
 
-.clients img{
-    padding:0 1rem 0 1rem ;
+.clients img {
+    padding: 0 1rem 0 1rem;
     width: 5%;
     height: 5%;
 }
 
-.statistic_text{
+/* Statistic section */
+
+.statistic_text {
     display: flex;
     flex-direction: row;
     margin-left: 7rem;
@@ -115,20 +121,122 @@ header{
     padding-right: 2rem;
 }
 
-.text p{
+.text p {
     font-size: 54px;
     line-height: 65px;
     color: #0A0D14;
     padding-left: 2rem;
 }
 
-footer{
-    background: #000000;
+.containers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 4rem;
+}
 
+
+.container {
+    border-width: medium;
+}
+
+.counter {
+    font-size: 27px;
+    line-height: 34px;
+    color: #1E1C97;
+}
+
+.counter_text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #4F5664;
+}
+
+/* All in one platform */
+
+.platform_intro{
+    padding-top: 10rem;
+}
+
+.platform_text {
+    display: flex;
+    flex-direction: row;
+    margin-left: 7rem;
+    align-items: baseline;
+}
+
+.platform_text p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #4F5664;
+    padding-right: 2rem;
+}
+
+.platform_paragraph{
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: #4F5664;
+}
+
+.text title {
+    font-size: 54px;
+    line-height: 65px;
+    color: #0A0D14;
+    padding-left: 2rem;
+}
+
+/*Footer*/
+
+footer {
+    background: #000000;
+}
+
+.list_content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-left: 20rem;
 }
 
 footer p {
-    font-size: 48px;
-    color: #ffffff;
-    margin-left: 7rem;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #EFF0F6;
+    padding-bottom: 1rem;
+}
+
+footer img {
+    width: 15%;
+    height: 15%;
+    padding-top: 1rem;
+}
+
+.section_title {
+
+    color: #AEACFF;
+}
+
+.footer_bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.footer_bottom p {
+    padding-left: 1rem;
+}
+
+.copyright {
+    display: flex;
+
 }
