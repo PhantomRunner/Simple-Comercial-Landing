@@ -28,8 +28,7 @@
 
 header {
     background: #2D29D7;
-    width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 .header_container {
@@ -75,6 +74,13 @@ header {
     padding-right: 0.5rem;
 }
 
+/* Content container */
+
+.content {
+    width: 90%;
+    margin: auto;
+}
+
 /* Trusted by section */
 
 .clients {
@@ -107,6 +113,12 @@ header {
 
 /* Statistic section */
 
+.statistic {
+    padding-bottom: 5rem;
+    border-bottom: 2px solid #d8dee9;
+
+}
+
 .statistic_text {
     display: flex;
     flex-direction: row;
@@ -114,18 +126,17 @@ header {
     align-items: baseline;
 }
 
-.statistic_text p {
+.aside_title {
     font-size: 20px;
     line-height: 30px;
     color: #4F5664;
     padding-right: 2rem;
 }
 
-.text p {
+.title {
     font-size: 54px;
     line-height: 65px;
     color: #0A0D14;
-    padding-left: 2rem;
 }
 
 .containers {
@@ -157,31 +168,29 @@ header {
 
 /* All in one platform */
 
-.platform_intro{
-    padding-top: 10rem;
+.platform_intro {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    border-bottom: 2px solid #d8dee9;
 }
 
 .platform_text {
     display: flex;
     flex-direction: row;
     margin-left: 7rem;
+    padding-bottom: 5rem;
     align-items: baseline;
 }
 
-.platform_text p {
-    font-size: 20px;
-    line-height: 30px;
-    color: #4F5664;
-    padding-right: 2rem;
-}
 
-.platform_paragraph{
+.section_paragraph {
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 29px;
     color: #4F5664;
+    padding-top: 2rem;
 }
 
 .text title {
@@ -191,7 +200,171 @@ header {
     padding-left: 2rem;
 }
 
-/*Footer*/
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card {
+    background-color: #f8fafd;
+    width: 35vh;
+    min-height: 40vh;
+    height: auto;
+}
+
+.card_title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 24px;
+    text-align: center;
+    color: #0A0D14;
+    padding-bottom: 3vh;
+}
+
+.card_paragraph {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #4F5664;
+}
+
+/*TODO: Add align item at the end of div*/
+.card_text img {
+
+    width: 25vh;
+    height: 35vh;
+}
+
+/* Always on protection section */
+
+.always_on_protection {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    border-bottom: 2px solid #d8dee9;
+}
+
+.always_on_protection_text {
+    display: flex;
+    flex-direction: row;
+    margin-left: 7rem;
+    padding-bottom: 5rem;
+    align-items: baseline;
+
+}
+
+.section_paragraph {
+    margin-bottom: 2rem;
+}
+
+.contact_us {
+    font-family: 'Inter', serif;
+    font-size: 14px;
+    margin-top: 2rem;
+    border-radius: 8px;
+    border: 2px solid #2D29D7;
+    width: 16vh;
+    height: 6vh;
+    text-align: right;
+    color: #2D29D7;
+    padding-right: 0.5rem;
+    background-color: transparent;
+}
+
+.protection_subsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sub_section {
+    width: 30vh;
+}
+
+.sub_section_title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0A0D14;
+    padding-bottom: 1vh;
+}
+
+.sub_section_paragraph {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+
+    color: #4F5664;
+
+
+}
+
+
+/* Media */
+
+.media{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    border-bottom: 2px solid #d8dee9;
+}
+
+.media_card{
+    margin: auto;
+    width: 110vh;
+    height: 60vh;
+    border-radius: 4vh;
+    background-color: #2d29d7;
+    display: flex;
+    flex-direction: column;
+}
+
+.media_card_img{
+    width: 25vh;
+    height: 25vh;
+    padding-right: 4vh;
+}
+
+.media_card_body{
+    width: 80%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+    align-items: center;
+}
+
+.media_card_body_paragraph{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    color: #EFF0F6;
+}
+
+.media_card_author{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: #D5D7E5;
+    border-left: 2px solid #d5d7e5;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1vh;
+
+}
+/* Footer */
 
 footer {
     background: #000000;
