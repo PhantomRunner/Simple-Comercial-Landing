@@ -28,7 +28,7 @@
 
 header {
     background: #2D29D7;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .header_container {
