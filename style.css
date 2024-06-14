@@ -387,6 +387,44 @@ header {
     justify-content: space-between;
 }
 
+
+/* Announcement section */
+
+.announcement_text{
+    margin: 10vh 0 10vh 15vh;
+}
+
+.announcement_title{
+    font-family: 'Space Grotesk', serif;
+    font-weight: 400;
+    font-size: 41px;
+    line-height: 50px;
+    color: #EFF0F6;
+    padding-bottom: 2vh;
+}
+
+.announcement_section_paragraph{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #D5D7E5;
+}
+.learn_more{
+    font-family: 'Inter', serif;
+    font-size: 14px;
+    margin-top: 2rem;
+    border-radius: 8px;
+    border: 2px solid #2D29D7;
+    width: 16vh;
+    height: 6vh;
+    text-align: right;
+    color: #2D29D7;
+    padding-right: 0.5rem;
+    background-color: transparent;
+}
+
 /* Footer */
 
 footer {
