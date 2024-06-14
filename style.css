@@ -302,11 +302,7 @@ header {
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    /* or 160% */
-
     color: #4F5664;
-
-
 }
 
 
@@ -320,14 +316,16 @@ header {
 
 .media_card{
     margin: auto;
-    width: 110vh;
-    height: 60vh;
+    min-width: 120vh;
+    min-height: 60vh;
     border-radius: 4vh;
     background-color: #2d29d7;
+}
+
+.media_card_content{
     display: flex;
     flex-direction: column;
 }
-
 .media_card_img{
     width: 25vh;
     height: 25vh;
@@ -339,7 +337,6 @@ header {
     display: flex;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 10%;
     align-items: center;
 }
 
@@ -362,8 +359,34 @@ header {
     margin-left: auto;
     margin-right: auto;
     padding-left: 1vh;
-
 }
+
+/* Commercial products section */
+
+.commercial_products{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    border-bottom: 2px solid #d8dee9;
+}
+
+/* Why we section */
+
+.why_we{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    border-bottom: 2px solid #d8dee9;
+}
+
+#why_we_2nd_paragraph{
+    padding-top: 0;
+}
+
+.why_we_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 /* Footer */
 
 footer {
