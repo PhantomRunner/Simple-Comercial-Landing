@@ -308,13 +308,13 @@ header {
 
 /* Media */
 
-.media{
+.media {
     padding-top: 5rem;
     padding-bottom: 5rem;
     border-bottom: 2px solid #d8dee9;
 }
 
-.media_card{
+.media_card {
     margin: auto;
     min-width: 120vh;
     min-height: 60vh;
@@ -322,17 +322,18 @@ header {
     background-color: #2d29d7;
 }
 
-.media_card_content{
+.media_card_content {
     display: flex;
     flex-direction: column;
 }
-.media_card_img{
+
+.media_card_img {
     width: 25vh;
     height: 25vh;
     padding-right: 4vh;
 }
 
-.media_card_body{
+.media_card_body {
     width: 80%;
     display: flex;
     margin-right: auto;
@@ -340,14 +341,14 @@ header {
     align-items: center;
 }
 
-.media_card_body_paragraph{
+.media_card_body_paragraph {
     font-family: 'Space Grotesk', sans-serif;
     font-size: 22px;
     line-height: 30px;
     color: #EFF0F6;
 }
 
-.media_card_author{
+.media_card_author {
     font-family: 'Inter', sans-serif;
     font-size: 15px;
     line-height: 24px;
@@ -363,7 +364,7 @@ header {
 
 /* Commercial products section */
 
-.commercial_products{
+.commercial_products {
     padding-top: 5rem;
     padding-bottom: 5rem;
     border-bottom: 2px solid #d8dee9;
@@ -371,17 +372,17 @@ header {
 
 /* Why we section */
 
-.why_we{
+.why_we {
     padding-top: 5rem;
     padding-bottom: 5rem;
     border-bottom: 2px solid #d8dee9;
 }
 
-#why_we_2nd_paragraph{
+#why_we_2nd_paragraph {
     padding-top: 0;
 }
 
-.why_we_section{
+.why_we_section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -390,11 +391,11 @@ header {
 
 /* Announcement section */
 
-.announcement_text{
+.announcement_text {
     margin: 10vh 0 10vh 15vh;
 }
 
-.announcement_title{
+.announcement_title {
     font-family: 'Space Grotesk', serif;
     font-weight: 400;
     font-size: 41px;
@@ -403,7 +404,7 @@ header {
     padding-bottom: 2vh;
 }
 
-.announcement_section_paragraph{
+.announcement_section_paragraph {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -411,7 +412,8 @@ header {
     line-height: 30px;
     color: #D5D7E5;
 }
-.learn_more{
+
+.learn_more {
     font-family: 'Inter', serif;
     font-size: 14px;
     margin-top: 2rem;
@@ -423,6 +425,61 @@ header {
     color: #2D29D7;
     padding-right: 0.5rem;
     background-color: transparent;
+}
+
+/* Get Started section */
+
+.get_started {
+    background-color: #f2f4f8;
+}
+
+.get_started_content {
+    margin-left: 20vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.get_started_title {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    color: #4F5664;
+    
+}
+
+.get_started_slogan {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 54px;
+    line-height: 65px;
+    color: #000000;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.get_started_paragraph {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.contact_sales {
+    font-family: 'Inter', serif;
+    font-size: 14px;
+    line-height: 17px;
+
+    border-radius: 8px;
+    border: 2px solid #2D29D7;
+    width: 125px;
+    height: 42px;
+
+    text-align: right;
+    color: #2D29D7;
+    padding-right: 0.5rem;
+
+    margin-top: 5vh;
 }
 
 /* Footer */
