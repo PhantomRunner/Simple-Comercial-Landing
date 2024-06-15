@@ -112,6 +112,7 @@ header {
     padding-top: 10vh;
     border-bottom: 2px solid #d8dee9;
 }
+
 .statistic_text {
     display: flex;
     flex-direction: row;
@@ -157,6 +158,7 @@ header {
     line-height: 24px;
     color: #4F5664;
 }
+
 /* All in one platform */
 
 .platform_intro {
@@ -468,8 +470,8 @@ footer {
 .list_content {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 3rem;
-    padding-left: 20rem;
+    padding-top: 5vh;
+    padding-left: 30vh;
 }
 
 footer p {
@@ -477,7 +479,6 @@ footer p {
     font-size: 14px;
     line-height: 21px;
     color: #EFF0F6;
-    padding-bottom: 1rem;
 }
 
 footer img {
@@ -493,16 +494,19 @@ footer img {
 
 .footer_bottom {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-
-}
-
-.footer_bottom p {
-    padding-left: 1rem;
+    justify-content: space-around;
 }
 
 .copyright {
     display: flex;
-
 }
+
+.links {
+    display: flex;
+    flex-direction: row;
+}
+
+.links p {
+    padding-left: 2vh;
+}
+
