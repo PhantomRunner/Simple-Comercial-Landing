@@ -44,7 +44,7 @@ header {
 
 .paragraph {
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 2.5vh;
     line-height: 29px;
     margin-top: 2rem;
     color: #EFF0F6;
@@ -219,11 +219,12 @@ header {
     color: #4F5664;
 }
 
-/*TODO: Add align item at the end of div*/
 .card_text img {
-
     width: 25vh;
     height: 35vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-top: 3vh;
 }
 
 /* Always on protection section */
@@ -297,7 +298,6 @@ header {
 
 .media_card {
     margin: auto;
-    min-width: 120vh;
     min-height: 60vh;
     border-radius: 4vh;
     background-color: #2d29d7;
@@ -306,6 +306,7 @@ header {
 .media_card_content {
     display: flex;
     flex-direction: column;
+    padding-top: 10vh;
 }
 
 .media_card_img {
@@ -466,7 +467,7 @@ footer {
 
 .list_content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top: 3rem;
     padding-left: 20rem;
 }
