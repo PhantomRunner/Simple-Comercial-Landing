@@ -7,7 +7,6 @@
     font-family: 'Space Grotesk', serif;
     font-weight: 400;
     font-style: normal;
-
 }
 
 /* Header*/
@@ -16,11 +15,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 4rem;
+    height: 5vh;
 }
 
 .nav_bar a {
-    padding-left: 1rem;
+    padding-left: 2vh;
     color: #D5D7E5;
     text-decoration: none;
     font-size: 1.5rem;
@@ -32,23 +31,19 @@ header {
 }
 
 .header_container {
-    margin-top: 3rem;
-    margin-left: 7rem;
+    margin-top: 5vh;
+    margin-left: 10vh;
 }
 
 .slogan {
     font-family: 'Space Grotesk', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 53px;
-    line-height: 65px;
+    font-size: 10vh;
+    line-height: 11vh;
     color: #EFF0F6;
 }
 
 .paragraph {
     font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 29px;
     margin-top: 2rem;
@@ -57,8 +52,6 @@ header {
 
 .header_container button {
     font-family: 'Inter', serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 17px;
 
@@ -113,12 +106,12 @@ header {
 
 /* Statistic section */
 
+
 .statistic {
-    padding-bottom: 5rem;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
     border-bottom: 2px solid #d8dee9;
-
 }
-
 .statistic_text {
     display: flex;
     flex-direction: row;
@@ -157,15 +150,13 @@ header {
     color: #1E1C97;
 }
 
+
 .counter_text {
     font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 15px;
     line-height: 24px;
     color: #4F5664;
 }
-
 /* All in one platform */
 
 .platform_intro {
@@ -185,8 +176,6 @@ header {
 
 .section_paragraph {
     font-family: 'Inter', serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 29px;
     color: #4F5664;
@@ -215,8 +204,6 @@ header {
 
 .card_title {
     font-family: 'Space Grotesk', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 23px;
     line-height: 24px;
     text-align: center;
@@ -226,8 +213,6 @@ header {
 
 .card_paragraph {
     font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
@@ -288,8 +273,6 @@ header {
 
 .sub_section_title {
     font-family: 'Space Grotesk', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #0A0D14;
@@ -298,8 +281,6 @@ header {
 
 .sub_section_paragraph {
     font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 15px;
     line-height: 24px;
     color: #4F5664;
@@ -397,7 +378,6 @@ header {
 
 .announcement_title {
     font-family: 'Space Grotesk', serif;
-    font-weight: 400;
     font-size: 41px;
     line-height: 50px;
     color: #EFF0F6;
@@ -406,8 +386,6 @@ header {
 
 .announcement_section_paragraph {
     font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 20px;
     line-height: 30px;
     color: #D5D7E5;
@@ -458,8 +436,6 @@ header {
 
 .get_started_paragraph {
     font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 15px;
     line-height: 24px;
     color: #000000;
@@ -497,8 +473,6 @@ footer {
 
 footer p {
     font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 21px;
     color: #EFF0F6;
